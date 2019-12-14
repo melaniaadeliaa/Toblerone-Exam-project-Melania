@@ -1,0 +1,313 @@
+*,
+*:after,
+*:before {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+.nav_link {
+    display: block;
+    color: #000000;
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    background-color: #0F596D;
+    text-align: left;
+    padding: 13px;
+    text-decoration: none;
+}
+
+.navigation_container {
+    background-color: #0F596D;
+    box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, .1);
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+    top: 0;
+    left: 0;
+    height: 53px;
+}
+
+.menu {
+    list-style: none;
+    overflow: hidden;
+    background-color: #ffffff;
+    margin-top: 3px;
+    margin-bottom: 2px;
+}
+
+.menu_item {
+    font-size: 12px;
+    padding: 5px 5px 5px 20px;
+}
+
+.logo {
+    height: 50px;
+    width: 65px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+
+.banner_container {
+    overflow: hidden;
+    max-height: 640px;
+    position: relative;
+    background-image: url('../images/mainpic1.jpg');
+    background-size: cover;
+    height: 100vh;
+}
+
+.header_container1 {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    text-align: center;
+    z-index: 1;
+    width: 100%;
+
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.someplatforms_section {
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
+
+.somelist_element {
+    margin-top: 5px;
+    list-style-type: none;
+}
+
+.some_link {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.footer_section {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    background-color: #0F596D;
+    background-size: contain;
+    color: white;
+    padding: 10px 0;
+}
+
+.scroll_text {
+
+    color: white;
+    font-size: 4vw;
+    margin: 0;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.homeimg {
+
+    width: 50%;
+    float: left;
+    padding-right: 20px;
+    text-align: center;
+}
+
+.homeimg3 {
+    display: none;
+}
+
+.homeimg2 {
+
+    width: 50%;
+    float: right;
+    padding-left: 20px;
+    text-align: center;
+}
+
+.text1 {
+    font-size: 3vw;
+}
+
+.centertext {
+    display: flex;
+    justify-content: center;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+
+}
+
+
+
+.collage {
+    display: none;
+    width: 5px;
+    height: 10px;
+    float: left;
+    padding-left: 20px;
+    text-align: center;
+}
+
+.text2 {
+    display: none;
+    font-size: 1vw;
+}
+
+.wrapper1 {
+    display: flex;
+    justify-content: center;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: none;
+}
+
+.title1 {
+    position: absolute;
+    overflow: visible;
+    width: 244px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Helvetica Neue;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    color: rgba(245, 202, 34, 1);
+}
+
+
+.headline {
+    text-align: center;
+    font-family: Rockwell;
+    color: #FDD519;
+
+}
+
+.wrapper2 {
+
+    margin-top: 70px;
+
+}
+
+.productionimg {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bigtext{
+    font-family: Rockwell;
+}
+
+p{
+    font-family: Khmer Sangam MN;
+}
+
+.question {
+
+    color: #6797A4;
+    font-family: Khmer Sangam MN;
+}
+
+.redirect{
+    font-family:Khmer Sangam MN;
+    color: #6797A4;
+    text-decoration: none;
+}
+
+@media only screen and (min-width: 768px) {
+
+    .banner_container {
+        overflow: hidden;
+        max-height: 640px;
+        position: relative;
+        background-image: url('../images/mainimg1.jpg');
+        background-size: cover;
+        height: 100vh;
+    }
+
+    .scroll_text {
+
+        color: white;
+        font-size: 2vw;
+        margin: 0;
+    }
+
+    .homeimg {
+        display: none;
+    }
+
+    .homeimg2 {
+        display: none;
+    }
+
+    .homeimg3 {
+        display: block;
+        width: 999px;
+        float: left;
+        padding-right: 10px;
+        height: 500px;
+    }
+
+
+    .text1 {
+        display: none;
+
+    }
+
+
+    .text2 {
+        display: block;
+        font-size: 0.1vw;
+    }
+
+    .wrapper1 {
+        display: flex;
+        justify-content: center;
+        padding-left: 20%;
+        padding-right: 20%;
+        padding-top: 10px;
+        padding-bottom: 20px;
+        display: block;
+    }
+
+
+
+
+    .collage {
+
+        width: 10%;
+        float: left;
+        padding-left: 20px;
+        display: block;
+    }
+
+
+
+
+}

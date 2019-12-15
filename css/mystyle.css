@@ -28,7 +28,9 @@
     top: 0;
     left: 0;
     height: 53px;
+
 }
+
 
 .menu {
     list-style: none;
@@ -192,7 +194,7 @@
     width: 244px;
     white-space: nowrap;
     text-align: center;
-    font-family: Helvetica Neue;
+    font-family: "Helvetica Neue";
     font-style: normal;
     font-weight: normal;
     font-size: 30px;
@@ -225,17 +227,17 @@
 }
 
 p{
-    font-family: Khmer Sangam MN;
+    font-family:"Khmer Sangam MN";
 }
 
 .question {
 
     color: #6797A4;
-    font-family: Khmer Sangam MN;
+    font-family:"Khmer Sangam MN";
 }
 
 .redirect{
-    font-family:Khmer Sangam MN;
+    font-family:"Khmer Sangam MN";
     color: #6797A4;
     text-decoration: none;
 }
